@@ -1,0 +1,83 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #a3aab7, #243b55);
+}
+
+/* Center Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Common Box */
+.box {
+  width: 320px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+/* Login Page Color */
+.login-box {
+  background: #1e293b;
+}
+
+/* Signup Page Color */
+.signup-box {
+  background: #1e293b;
+}
+
+/* Dashboard Page Color */
+.dashboard-box {
+  background: #1e293b;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 25px;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #e5e7eb;
+  color: black;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #14b8a6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+.link {
+  color: #facc15;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
